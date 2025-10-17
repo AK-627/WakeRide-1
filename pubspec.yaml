@@ -44,6 +44,7 @@ dependencies:
   http: ^1.5.0
   location: ^8.0.1
   flutter_polyline_points: ^3.1.0
+  flutter_native_splash: ^2.4.7
 
 
 
@@ -100,3 +101,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+  # In pubspec.yaml
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splashimages.png
+  android: true
+  ios: true
